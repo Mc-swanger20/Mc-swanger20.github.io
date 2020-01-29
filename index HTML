@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">>
+
+<head>
+  <title>
+    This is my first page
+    </title>
+  </head>
+
+
+  <body>
+    <!-- What goes here does not show up-->
+    <h1> This is my first page </h1>
+    <p>I have <b>some</b> experience now</p>
+    <p>I don't want to <i>pay someone</i> to make <b>my website</b> </p>
+
+    <p>This is a link to <a href="https://www.google.com/">Google</a></p>
+
+    <img src="file:///Users/marcellocarelli/Desktop/IMG_2061.jpeg" alt="description of the image"/>
+
+    <ul>
+       <li>Philly Joe Jones</li>
+       <li>Sonny Payne</li>
+    </ul>
+    <hr>
+    <ol>
+    <li>Philly Joe Jones</li>
+     <li>Sonny Payne</li>
+     </ol>
+
+     <address>
+       <p> Marcello Carelli</p>
+       <p>5185 Ponce de Leon Boulevard</p>
+     </address>
+
+    <table>
+      <th>Best drummers</th>
+      <tr>
+        <td>Eric Harland</td>
+      </tr>
+      <tr>
+        <td>Kendrick Scott</td>
+      </tr>
+    </table>
+
+
+
+
+    </body>
+
+    </html>

@@ -1,0 +1,40 @@
+/*css for styled resume*/
+/*color of background and text font in body*/
+body{
+  background-color: #E3E2E0;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+}
+/*fonts for headers*/
+h1, h2, h4{
+  font-family: 'Acme', sans-serif;
+}
+h1{
+  color: #792424;
+}
+.second-headings{
+  color: #2E3876;
+}
+.ancor-header{
+  color: #134805;
+  text-decoration: none;
+}
+.ancor-header:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+.link-color{
+  color: #8D0707;
+  text-decoration: none;
+}
+.link-color:hover{
+  color: #134805;
+  text-decoration: underline;
+}
+.para-bio{
+  font-size: 18px;
+}
+hr{
+  border: solid 1px;
+  color: #979797
+}

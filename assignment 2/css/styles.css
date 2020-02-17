@@ -1,0 +1,53 @@
+body{
+  color: black;
+}
+.main-title{
+  color: red;
+}
+#main-text{
+  color:green;
+}
+p{
+  color:#E86F2B;
+}
+div{
+  width:200px;
+  height:200px;
+  border:solid 4px #333333;
+  margin:10px;
+  padding:10px;
+  display:inline-block;
+}
+  .hex-color{
+    background:#34cbd3;
+  }
+  .hex-color:hover{
+    background:#000000;
+    color: #ffffff;
+  }
+  .rgb-color{
+    background:
+  }
+  .rgb-color:hover{
+
+  }
+  .box{
+    background-color: rgb(134, 43, 232);
+  }
+
+  .bankshot{
+    background-color: rgb(151, 196, 8);
+  }
+
+  .content-1{
+    background-color:#000000;
+    color: #FFFFFF;
+    padding: 35px;
+  }
+
+  .image-bg{
+    background-image: url("../images/University of Miami Lake Osceola.jpg");
+    background-size: contain;
+    width:200px;
+    height:200px;
+  }

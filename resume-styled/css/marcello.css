@@ -14,7 +14,7 @@ h1, h2, h4 {
 h1 {
   color: #792424;
 }
-
+/*classes for headers*/
 .second-headings {
   color: #2E3876;
 }
@@ -67,7 +67,7 @@ th, td {
 
 .tab-head {
   font-family: 'Acme', sans-serif;
-  color: #2E3876; 
+  color: #2E3876;
 }
 
 .table-style {

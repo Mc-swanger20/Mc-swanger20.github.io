@@ -32,7 +32,7 @@ h1{
   text-decoration: underline;
 }
 .para-bio{
-  font-size: 18px;
+  font-size: 19px;
 }
 hr{
   border: solid 1px;
@@ -50,7 +50,7 @@ th,td{
   padding: 20px,20px;
 }
 .tab-head{
-  font-family: 'Acme', sans-serif; 
+  font-family: 'Acme', sans-serif;
 }
 .table-style{
   border: 1px solid;

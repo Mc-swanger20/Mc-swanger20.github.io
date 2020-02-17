@@ -50,7 +50,7 @@ hr {
   color: #979797
 }
 
-/*table styling regular*/
+/*I explored a new type of table styling*/
 table {
   margin-bottom: 10px;
   border: 3px solid;
@@ -80,7 +80,7 @@ th, td {
   font-size: 19px;
 }
 
-/*class used to center specific content*/
+/*This is the div class I explored to center specific content*/
 .center-content {
   text-align: center
 }

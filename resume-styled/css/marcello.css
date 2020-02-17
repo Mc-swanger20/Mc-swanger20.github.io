@@ -79,3 +79,7 @@ th, td {
   background-color: #DADADA;
   font-size: 19px;
 }
+
+.center-content {
+  text-align: center
+}

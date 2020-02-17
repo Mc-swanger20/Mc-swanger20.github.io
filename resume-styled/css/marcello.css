@@ -1,58 +1,72 @@
 /*css for styled resume*/
 /*color of background and text font in body*/
-body{
+body {
   background-color: #E3E2E0;
   font-family: 'Sansita', sans-serif;
   font-size: 20px;
 }
+
 /*fonts for headers*/
-h1, h2, h4{
+h1, h2, h4 {
   font-family: 'Acme', sans-serif;
 }
-h1{
+
+h1 {
   color: #792424;
 }
-.second-headings{
+
+.second-headings {
   color: #2E3876;
 }
-.ancor-header{
+
+.ancor-header {
   color: #134805;
   text-decoration: none;
 }
-.ancor-header:hover{
+
+.ancor-header:hover {
   color: #000000;
   text-decoration: underline;
 }
-.link-color{
+
+.link-color {
   color: #8D0707;
   text-decoration: none;
 }
-.link-color:hover{
+
+.link-color:hover {
   color: #134805;
   text-decoration: underline;
 }
-.para-bio{
+
+.para-bio {
   font-size: 19px;
 }
-hr{
+
+hr {
   border: solid 1px;
   color: #979797
 }
-table{
+
+table {
   margin-bottom: 10px;
   border: 3px solid;
 }
-th{
+
+th {
   border: 2px solid;
   background-color: #C8C8C8;
 }
-th,td{
-  padding: 20px,20px;
+
+th, td {
+  padding: 20px, 20px;
 }
-.tab-head{
+
+.tab-head {
   font-family: 'Acme', sans-serif;
 }
-.table-style{
+
+.table-style {
   border: 1px solid;
   background-color: #DADADA;
   font-size: 18px;

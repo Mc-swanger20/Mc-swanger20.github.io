@@ -225,7 +225,7 @@ td {
 
   .body-text{
     background-color: #1C6E2A;
-    grid-column: 4/13;
+    grid-column: 5/13;
     grid-row: 3/5;
 
   }
@@ -250,13 +250,13 @@ td {
 
   .headshot{
     background-color: #787C7E;
-    grid-column: 1/4;
+    grid-column: 1/5;
 
   }
 
   .media{
     background-color: #1C6E2A;
-    grid-column: 1/4;
+    grid-column: 1/5;
 
   }
 
@@ -279,6 +279,7 @@ td {
   table {
     margin-bottom: 10px;
     border: 3px solid;
+    font-size: 16px;
   }
 
   th {
@@ -288,5 +289,9 @@ td {
 
   td {
     border: 1px solid;
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  h4 {
+    margin: 8px;
   }

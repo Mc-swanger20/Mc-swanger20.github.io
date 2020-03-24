@@ -1,0 +1,42 @@
+.main-wrapper{
+  font family:font-family: 'Sansita', sans-serif;
+
+display: grid;
+
+grid-template-columns: 300px 300px 300px;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: 200px repeat (3,1fr);
+grid-template-columns: repeat (12, minmax (0, 1fr));
+
+/*rows*/
+gride-template-rows: 300px 300px;
+grid-template-rows: 3fr (repeat (3, minmax)
+
+row-gap: 10px;
+column gap: 10px;
+
+}
+
+header{
+  background: skyblue;
+  grid column: 1 / 13;
+}
+
+main{
+  background: gainsboro;
+  grid-column: 4 / 10;
+}
+
+aside{
+  background: lightseagreen;
+
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4,)
+}
+
+.main-nav{
+  display; flex;
+}

@@ -189,6 +189,21 @@ td {
   font-size: 20px;
 }
 
+h4 {
+  margin: 8px;
+}
+
+.anchor-style {
+  color: #D76B0C;
+  text-decoration: none;
+}
+
+.anchor-style:hover {
+  color: white;
+  text-decoration: inherit;
+}
+
+
 
 
 @media only screen and (min-width: 380px) {
@@ -233,7 +248,7 @@ td {
   .main-nav li {
     list-style: none;
     display: inline-flex;
-    padding-right: 30px;
+    padding-right: 50px;
   }
 
   .body-text{
@@ -307,4 +322,14 @@ td {
 
   h4 {
     margin: 8px;
+  }
+
+  .anchor-style {
+    color: #D76B0C;
+    text-decoration: none;
+  }
+
+  .anchor-style:hover {
+    color: white;
+    text-decoration: inherit;
   }

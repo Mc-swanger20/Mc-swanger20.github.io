@@ -111,6 +111,13 @@ grid-column: 1/13;
 
 }
 
+.main-nav li {
+  list-style: none;
+  display: inline-flex;
+  padding-right: 30px;
+}
+
+
 .body-text{
   background-color: #1C6E2A;
   grid-column: 1;
@@ -221,6 +228,12 @@ td {
     color: white;
     grid-column: 1/13;
 
+  }
+
+  .main-nav li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 30px;
   }
 
   .body-text{

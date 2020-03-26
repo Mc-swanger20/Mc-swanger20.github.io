@@ -97,12 +97,17 @@ background-color: #D76B0C;
 margin: 10px 5px 10px 5px;
 }
 
+footer {
+  grid-column: 1/13;
+}
+
 .footer{
 background-color: #53585A;
 color: white;
 grid-column: 1/13;
 /* grid-row: 7/7; */
 }
+
 
 table {
   margin-bottom: 10px;
@@ -259,7 +264,7 @@ h4 {
   .stats-title {
     background-color: #EC790D;
     grid-column: 1/13;
-    grid-row: 1/2;
+    grid-row: 2;
 
   }
 

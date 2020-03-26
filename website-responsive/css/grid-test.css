@@ -150,6 +150,11 @@ height: 40px;
 
 }
 
+.headshot img {
+  width: 100%
+
+}
+
 .media{
   background-color: #1C6E2A;
   grid-column: 1;
@@ -271,6 +276,7 @@ h4 {
 
   }
 
+
   .media{
     background-color: #1C6E2A;
     grid-column: 1/5;
@@ -312,6 +318,8 @@ h4 {
   h4 {
     margin: 8px;
   }
+
+
 
   .anchor-style {
     color: #D76B0C;

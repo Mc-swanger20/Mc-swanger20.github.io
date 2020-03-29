@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ h1 {
 .main-nav li {
   list-style: none;
   display: inline-flex;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 

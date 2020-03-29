@@ -186,6 +186,12 @@ section {
 
 }
 
+.player1 img {
+  width: 30%;
+  float: left;
+
+}
+
 
 
 
@@ -351,5 +357,11 @@ section {
   .stats1 {
     background-color: #D76B0C;
     margin: 10px 5px 10px 5px;
+
+  }
+
+  .player1 img {
+    width: 30%;
+    float: left;
 
   }

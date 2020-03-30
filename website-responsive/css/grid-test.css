@@ -464,7 +464,7 @@ section {
   }
 
   .photo img {
-    width: 100%
+    width: 100%;
   }
 
   .video {
@@ -642,7 +642,8 @@ section {
   .player1 img {
     width: 20%;
     float: left;
-    margin-right: 15px
+    margin-right: 15px;
+    padding-bottom: 10px;
   }
 
   .stats-box {

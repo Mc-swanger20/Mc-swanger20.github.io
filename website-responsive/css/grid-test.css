@@ -239,7 +239,7 @@ section {
 }
 
 .players-media {
-  grid-column: 1/13;
+  grid-column: 1;
 }
 
 .players-box.media {
@@ -249,9 +249,12 @@ section {
 
 .stats-box.media {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  
 }
 
+.videos-media {
+  grid-column: 1;
+}
 
 
 

@@ -170,6 +170,7 @@ section {
   background-color: #EC790D;
   grid-column: 1/13;
   grid-row: 2;
+  padding-left: 8px;
 }
 
 .players-box {
@@ -556,6 +557,10 @@ section {
     background-color: #53585A;
     color: white;
     grid-column: 1/13;
+  }
+
+  .footer p{
+    font-size: 16px;
   }
 
   table {

@@ -227,7 +227,7 @@ section {
 }
 
 .players-media {
-  grid-column: 1;
+  grid-column: 1/13;
 }
 
 .players-box.media {
@@ -240,7 +240,11 @@ section {
 }
 
 .videos-media {
-  grid-column: 1;
+  grid-column: 1/13;
+}
+
+.videos-media iframe {
+  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -471,8 +475,7 @@ section {
 
   .players-box.media {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1/6;
+    grid-template-columns: 1fr
   }
 
   .videos-media {
@@ -662,6 +665,7 @@ section {
     10px 5px 10px 5px;
   }
 
-  .players-media {
-    grid-column: 1/6;
+  .players-box.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }

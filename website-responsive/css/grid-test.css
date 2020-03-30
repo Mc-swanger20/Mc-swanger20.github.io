@@ -183,7 +183,7 @@ section {
 
 .players-box {
   background-color: #1C6E2A;
-  grid-column: 1/6;
+  grid-column: 1/13;
   grid-row: 3/6;
 
 }
@@ -429,7 +429,7 @@ section {
 
   section {
     display: grid;
-    grid-column: 1/6;
+    grid-column: 1/13;
     grid-row: 3/6;
   }
 
@@ -443,7 +443,7 @@ section {
 
   .players-box {
     background-color: #1C6E2A;
-    grid-column: 1/6;
+    grid-column: 1/13;
     grid-row: 3/6;
 
   }
@@ -642,7 +642,7 @@ section {
 
   section {
     display: grid;
-    grid-column: 1/6;
+    grid-column: 1/13;
     grid-row: 3/6;
   }
 

@@ -233,10 +233,13 @@ section {
 .players-box.media {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
+  padding: 5px;
 }
 
 .stats-box.media {
   display: grid;
+  padding: 5px;
 }
 
 .videos-media {
@@ -470,16 +473,16 @@ section {
   }
 
   .players-media {
-    grid-column: 1/7;
+    grid-column: 1/6;
   }
 
   .players-box.media {
     display: grid;
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr 1fr;
   }
 
   .videos-media {
-    grid-column: 7/13;
+    grid-column: 6/13;
   }
 }
 
@@ -665,7 +668,10 @@ section {
     10px 5px 10px 5px;
   }
 
-  .players-box.media {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .players-media {
+    grid-column: 1/7;
+  }
+
+  .videos-media {
+    grid-column: 7/13;
   }

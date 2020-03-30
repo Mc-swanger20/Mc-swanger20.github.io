@@ -249,11 +249,10 @@ section {
 
 .stats-box.media {
   display: grid;
-  
 }
 
 .videos-media {
-  grid-column: 1;
+  grid-column:1;
 }
 
 

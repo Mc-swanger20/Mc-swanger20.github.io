@@ -173,6 +173,7 @@ section {
   grid-row: 3/6;
 }
 
+
 .section-2 {
   display: grid;
   grid-column: 6/13;
@@ -208,12 +209,20 @@ section {
 .stats1 {
   background-color: #D76B0C;
   margin: 10px 5px 10px 5px;
+  padding-top: 10px;
+  clear: both;
+}
+
+
+.player1 img {
+  width: 25%;
+  float: left;
+  margin-right: 15px
 
 }
 
-.player1 img {
-  width: 80%;
-
+.player1 li {
+  list-style: none;
 }
 
 .box-4 iframe {
@@ -236,11 +245,277 @@ section {
   10px 5px 10px 5px;
 }
 
+.players-media {
+  grid-column: 1/13;
+}
+
+.players-box.media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 
-@media only screen and (min-width: 540px) {
+
+
+@media only screen and (min-width: 600px) {
+
+  .main-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    /* grid-template-rows: repeat(7, minmax(50px, auto)); */
+    gap: 10px;
+    background: #F8F8F8;
+    font-size: 20px;
+  }
+
+  header {
+    display: grid;
+    grid-column: 1/13;
+  }
+
+  .header{
+    background-color: #1C6E2A;
+    color: white;
+    grid-column: 1/10;
+    grid-row: 1/1;
+
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Logo{
+    background-color: #787C7E;
+    grid-column: 10/13;
+    /* grid-row: 2/2; */
+
+  }
+
+  .main-nav{
+    background-color: #212527;
+    color: white;
+    grid-column: 1/13;
+    /* grid-row: 3/3; */
+
+  }
+
+  .main-nav li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 15px;
+  }
+
+
+  .body-text{
+    background-color: #1C6E2A;
+    grid-column: 1/13;
+    /* grid-row: 4/4; */
+
+  }
+
+  .box-1{
+    background-color: #D76B0C;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+
+  }
+
+  .box-2{
+  background-color: #D76B0C;
+  margin: 10px 5px 10px 5px;
+  height: 50px;
+  }
+
+  .box-3{
+  background-color: #D76B0C;
+  margin: 10px 5px 10px 5px;
+  height: 40px;
+  }
+
+  .headshot{
+    background-color: #787C7E;
+    grid-column: 1/13;
+    /* grid-row: 5/5; */
+
+  }
+
+  .headshot img {
+    width: 100%
+
+  }
+
+  .media{
+    background-color: #1C6E2A;
+    grid-column: 1/13;
+    /* grid-row: 6/6; */
+
+  }
+
+  .box-4{
+  background-color: #D76B0C;
+  margin: 10px 5px 10px 5px;
+  padding: 2px 10px 2px 10px;
+  }
+
+  .box-5{
+  background-color: #D76B0C;
+  margin: 10px 5px 10px 5px;
+  padding: 2px 10px 2px 10px;
+  }
+
+  footer {
+    grid-column: 1/13;
+  }
+
+  .footer{
+  background-color: #53585A;
+  color: white;
+  grid-column: 1/13;
+  /* grid-row: 7/7; */
+  }
+
+
+  table {
+    margin-bottom: 10px;
+    border: 3px solid;
+  }
+
+  th {
+    border: 2px solid;
+    text-align: left;
+  }
+
+  td {
+    border: 1px solid;
+    font-size: 20px;
+  }
+
+  h4 {
+    margin: 8px;
+  }
+
+  h3 {
+    margin: 5px 15px;
+  }
+
+  .box-1 h4 {
+    margin: 0px;
+  }
+
+  .box-4 h4 {
+    margin: 5px 0px;
+  }
+
+  .box-5 h3 {
+    margin: 5px 0px 10px 0px;
+  }
+
+
+  .anchor-style {
+    color: #D76B0C;
+    text-decoration: none;
+  }
+
+  .anchor-style:hover {
+    color: white;
+    text-decoration: inherit;
+  }
+
+  .no-anchor {
+    color: #D76B0C;
+  }
+
+  section {
+    display: grid;
+    grid-column: 1/13;
+    grid-row: 3/6;
+  }
+
+
+  .section-2 {
+    display: grid;
+    grid-column: 6/13;
+  }
+
+  .stats-title {
+    background-color: #EC790D;
+    grid-column: 1/13;
+    grid-row: 2;
+
+  }
+
+  .players-box {
+    background-color: #1C6E2A;
+    grid-column: 1/6;
+    grid-row: 3/6;
+
+  }
+
+
+  .player1 {
+    background-color: #787C7E;
+    margin: 10px 5px 10px 5px;
+    clear: both;
+  }
+
+  .stats-box {
+    background-color: #1C6E2A;
+    grid-column: 6/13;
+    grid-row: 3/6;
+  }
+
+  .stats1 {
+    background-color: #D76B0C;
+    margin: 10px 5px 10px 5px;
+    clear: none;
+
+  }
+
+  .player1 img {
+    width: 35%;
+    float: left;
+    margin-right: 15px
+  }
+
+  .player1 li {
+    list-style: none;
+  }
+
+  .box-4 iframe {
+    width: 100%;
+  }
+
+
+
+  .photo {
+    background-color: #212527;
+    10px 5px 10px 5px;
+  }
+
+  .photo img {
+    width: 100%
+  }
+
+  .video {
+    background-color: #212527;
+    10px 5px 10px 5px;
+  }
+
+  .players-media {
+    grid-column: 1/13;
+  }
+
+  .players-box.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 
 }
+
+
 
 @media only screen and (min-width: 1024px) {
   .main-wrapper{
@@ -404,6 +679,8 @@ section {
     clear: both;
   }
 
+
+
   .stats-box {
     background-color: #1C6E2A;
     grid-column: 6/13;
@@ -417,8 +694,9 @@ section {
   }
 
   .player1 img {
-    width: 30%;
+    width: 55%;
     float: left;
+    margin-right: 15px
   }
 
   .box-4 iframe {
@@ -437,4 +715,8 @@ section {
   .video {
     background-color: #212527;
     10px 5px 10px 5px;
+  }
+
+  .players-media {
+    grid-column: 1/6;
   }

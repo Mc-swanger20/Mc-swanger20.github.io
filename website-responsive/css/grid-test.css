@@ -473,7 +473,7 @@ section {
   }
 
   .players-media {
-    grid-column: 1/6;
+    grid-column: 1/5;
   }
 
   .players-box.media {
@@ -482,7 +482,7 @@ section {
   }
 
   .videos-media {
-    grid-column: 6/13;
+    grid-column: 5/13;
   }
 }
 
@@ -565,7 +565,7 @@ section {
     grid-column: 1/13;
   }
 
-  .footer p{
+  .footer p {
     font-size: 16px;
   }
 

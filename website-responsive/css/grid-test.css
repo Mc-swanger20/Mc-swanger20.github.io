@@ -169,7 +169,7 @@ h3 {
 
 section {
   display: grid;
-  grid-column: 1/6;
+  grid-column: 1/13;
   grid-row: 3/6;
 }
 
@@ -196,6 +196,7 @@ section {
 .player1 {
   background-color: #787C7E;
   margin: 10px 5px 10px 5px;
+  clear: both;
 }
 
 .stats-box {
@@ -211,8 +212,7 @@ section {
 }
 
 .player1 img {
-  width: 30%;
-  float: left;
+  width: 80%;
 
 }
 
@@ -238,11 +238,11 @@ section {
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 540px) {
 
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .main-wrapper{
     background: #F8F8F8;
     display: grid;
@@ -374,7 +374,7 @@ section {
 
   section {
     display: grid;
-    grid-column: 1/6;
+    grid-column: 1/13;
     grid-row: 3/6;
   }
 
@@ -401,6 +401,7 @@ section {
   .player1 {
     background-color: #787C7E;
     margin: 10px 5px 10px 5px;
+    clear: both;
   }
 
   .stats-box {

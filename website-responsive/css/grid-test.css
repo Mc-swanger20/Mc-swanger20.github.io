@@ -639,6 +639,12 @@ section {
     clear: both;
   }
 
+  .player1 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px
+  }
+
   .stats-box {
     background-color: #1C6E2A;
     grid-column: 6/13;

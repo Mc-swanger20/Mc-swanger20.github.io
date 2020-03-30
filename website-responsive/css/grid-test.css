@@ -222,6 +222,22 @@ section {
 
 
 
+.photo {
+  background-color: #212527;
+  10px 5px 10px 5px;
+}
+
+.photo img {
+  width: 100%
+}
+
+.video {
+  background-color: #212527;
+  10px 5px 10px 5px;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 
 }
@@ -406,4 +422,18 @@ section {
 
   .box-4 iframe {
     width: 100%;
+  }
+
+  .photo {
+    background-color: #212527;
+    10px 5px 10px 5px;
+  }
+
+  .photo img {
+    width: 100%
+  }
+
+  .video {
+    background-color: #212527;
+    10px 5px 10px 5px;
   }

@@ -174,11 +174,6 @@ section {
 }
 
 
-.section-2 {
-  display: grid;
-  grid-column: 6/13;
-}
-
 .stats-title {
   background-color: #EC790D;
   grid-column: 1/13;
@@ -229,8 +224,6 @@ section {
   width: 100%;
 }
 
-
-
 .photo {
   background-color: #212527;
   10px 5px 10px 5px;
@@ -250,6 +243,11 @@ section {
 }
 
 .players-box.media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stats-box.media {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -429,15 +427,10 @@ section {
 
   section {
     display: grid;
-    grid-column: 1/13;
+    grid-column: 1/6;
     grid-row: 3/6;
   }
 
-
-  .section-2 {
-    display: grid;
-    grid-column: 6/13;
-  }
 
   .stats-title {
     background-color: #EC790D;
@@ -474,7 +467,7 @@ section {
   }
 
   .player1 img {
-    width: 35%;
+    width: 30%;
     float: left;
     margin-right: 15px
   }
@@ -486,8 +479,6 @@ section {
   .box-4 iframe {
     width: 100%;
   }
-
-
 
   .photo {
     background-color: #212527;
@@ -504,7 +495,7 @@ section {
   }
 
   .players-media {
-    grid-column: 1/13;
+    grid-column: 1/6;
   }
 
   .players-box.media {
@@ -649,7 +640,7 @@ section {
 
   section {
     display: grid;
-    grid-column: 1/13;
+    grid-column: 1/6;
     grid-row: 3/6;
   }
 
@@ -694,7 +685,7 @@ section {
   }
 
   .player1 img {
-    width: 55%;
+    width: 50%;
     float: left;
     margin-right: 15px
   }

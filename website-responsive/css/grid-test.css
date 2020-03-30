@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 .main-nav li {
   list-style: none;
   display: inline-flex;
-  padding-right: 12px;
+  padding-right: 15px;
 }
 
 .body-text {

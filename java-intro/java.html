@@ -9,27 +9,54 @@
     .dynamicClass{
       font-size:30px;
     }
+    /* #testID{
+      background: lightblue;
+      width: 100px;
+      height: 100px;
+      position: relative; */
+
+    }
   </style>
   <body>
     <h1>DOM Test</h1>
     <p>Come check out this page with no information whatsoever</p>
     <p class="text-demo">This is demo text</p>
     <p class="text-demo1">what's upppp</p>
+    <button>Button</button>
     <p id="testID">Lemme see yo ID</p>
-
+    <p class="demo">My instrument is</p>
 <!--Jquery file here-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="jscript/jquery-3.4.1.min.js"></script>
+
     <script>
 
     $(document).ready(function(){
 
     $(".text-demo1").html("I'm using JQuery now");
-    $(".text-demo1").css("color", "red");
+    $(".text-demo1").css({"color": "red", "font-size": "30px"});
     $(".text-demo").addClass("dynamicClass");
 
-  });
+    $("#testID").hover(function(){
+      $("#testID").css("color", "red");
+    },
+    function(){
+      $("#testID").css("color", "black");
 
+  });
+  //End of Hover Option
+  $("button").click(function(){
+    $("#testID").fadeOut(1000);
+    $("#testID").fadeIn(1000);
+  });
+  $("button").click(function(){
+    $(".demo").after("Jazz Drumset");
+  });
+  $("button").click(function(){
+    $("#testID").animate({left: "250px", opacity: "0.5", height:"300px"});
+  });
+  //Document Ready ends here
+});
     </script>
 
   </body>

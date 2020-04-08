@@ -25,7 +25,7 @@
       <p>Before you know it, it'll be melting in your mouth!</p>
       <button class="step1" type="button" name="start">Start</button>
     </section>
-    <section class="ingredients">
+    <section class="ingredients hide">
       <h2>Gather Your Ingredients</h2>
       <ul>
         <li>16 oz (1 lb) of penne pasta</li>
@@ -40,7 +40,7 @@
       </ul>
       <button class="step2" type="button" name="next">Next</button>
     </section>
-    <section class="cook-pasta">
+    <section class="cook-pasta hide">
       <h2>Cook the Pasta</h2>
       <ul>
         <li>Grab a large pot and fill with water</li>
@@ -50,7 +50,7 @@
       </ul>
       <button class="step3" type="button" name="next">Next</button>
     </section>
-    <section class="prepare-sauce">
+    <section class="prepare-sauce hide">
       <h2>Prepare the sauce</h2>
       <ol>
         <li>Melt butter on seperate pan that's on medium heat</li>
@@ -64,7 +64,7 @@
       </ol>
       <button class="step4" type="button" name="next">Next</button>
     </section>
-    <section class="presentation">
+    <section class="presentation hide">
       <h2>Presentation</h2>
       <ul>
         <li>Pour vodka sauce over "al dente" pasta</li>
@@ -76,13 +76,50 @@
       </div>
       <button class="step5" type="button" name="next">Next</button>
     </section>
-    <section class="enjoy">
+    <section class="enjoy hide">
       <h2>Enjoy Your Delicous Meal!</h2>
       <div class="serving-size">
         <p>Mangia, Mangia!</p>
-        <button class="beginning" type="button" name="finish">Finish</button>  
+        <button class="beginning" type="button" name="finish">Finish</button>
     </section>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Step 1
+      $(".step1").click(function() {
+        $(".hook").hide(500);
+        $(".ingredients").show(500);
+      });
+      // Step 2
+      $(".step2").click(function() {
+        $(".ingredients").slideUp(500);
+        $(".cook-pasta").show(500);
+      });
+      // Step 3
+      $(".step3").click(function() {
+        $(".cook-pasta").hide(500);
+        $(".prepare-sauce").show(500);
+      });
+      // Step 4
+      $(".step4").click(function() {
+        $(".prepare-sauce").remove();
+        $(".presentation").slideToggle(500);
+      });
+      // Step 5
+      $(".step5").click(function() {
+        $(".presentation").slideUp(500);
+        $(".enjoy").slideDown(500);
+
+      });
+      // To Beginning
+      $(".beginning").click(function() {
+        $(".enjoy").fadeOut(100);
+        $(".hook").fadeIn(500);
+      });
+      // End of Javascript
+    });
+  </script>
 
 </body>
 

@@ -38,6 +38,7 @@
         <li>1/2 cup of parmessian cheese<br>(plus desired amount for serving)</li>
         <li>2 tbsp. of chooped parsley</li>
       </ul>
+      <button class="back1" type="button" name="back">Back</button>
       <button class="step2" type="button" name="next">Next</button>
     </section>
     <section class="cook-pasta hide">
@@ -95,6 +96,13 @@
       $(".step2").click(function() {
         $(".ingredients").slideUp(500);
         $(".cook-pasta").show(500);
+
+      $(".back1").click(function(){
+          $(".ingredients").slideUp(500);
+          $(".cook-pasta").hide(500);
+
+
+        });
       });
       // Step 3
       $(".step3").click(function() {

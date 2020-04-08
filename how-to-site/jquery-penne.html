@@ -81,6 +81,7 @@
       <h2>Enjoy Your Delicous Meal!</h2>
       <div class="serving-size">
         <p>Mangia, Mangia!</p>
+      </div>
         <button class="beginning" type="button" name="finish">Finish</button>
     </section>
   </main>
@@ -98,8 +99,8 @@
         $(".cook-pasta").show(500);
 
       $(".back1").click(function(){
-          $(".ingredients").slideUp(500);
-          $(".cook-pasta").hide(500);
+          $(".ingredients").slideDown(500);
+          $(".hook").show(500);
 
 
         });
@@ -111,7 +112,7 @@
       });
       // Step 4
       $(".step4").click(function() {
-        $(".prepare-sauce").remove();
+        $(".prepare-sauce").hide();
         $(".presentation").slideToggle(500);
       });
       // Step 5

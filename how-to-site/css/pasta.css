@@ -1,0 +1,76 @@
+body {
+  background-color: #DCC0B5;
+  font-family: 'Lora', serif;
+  font-size: 22px;
+}
+
+main {
+
+}
+
+header {
+
+}
+
+.serving-size {
+  font-size: 30px;
+}
+
+h1 {
+  color: #A62525;
+  font-size: 45px;
+  /* transform: rotate(12deg);
+  padding-top: 50px;
+  padding-left: 10px; */
+
+}
+
+h1 span {
+  font-size: 45px;
+}
+
+h1, h2, .serving-size {
+  font-family: 'Cormorant', serif;
+}
+
+h1 span, .serving-size {
+  color: #2E8030;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background: #BF5136;
+  font-size: 32px;
+  color: white;
+}
+
+/* Step #1 - Ingredients */
+.hook {
+  font-size: 25px;
+}
+
+/* Step #2 - Cooking the Pasta */
+.cook-pasta {
+
+}
+
+/* Step #3 - Making the Sauce */
+
+.prepare-sauce {
+
+}
+
+/* Step #4 - Presentation */
+
+.presentation {
+
+}
+
+/* Step #5 - Enjoy */
+
+.enjoy {
+
+}

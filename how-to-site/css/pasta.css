@@ -5,10 +5,10 @@ body {
 }
 
 main {
-  background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
+  /* background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
   min-height: 100%;
   min-width: `100%`
-  position: fixed;
+  position: fixed; */
   padding: 0 2rem;
 
 
@@ -53,6 +53,7 @@ button {
 
 .pasta-picture img{
   width: 60%;
+  padding-bottom: 1rem;
 }
 
 /* Step #1 - Ingredients */

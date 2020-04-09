@@ -5,6 +5,13 @@ body {
 }
 
 main {
+  background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
+  min-height: 100%;
+  min-width: `100%`
+  position: fixed;
+  padding: 0 2rem;
+
+
 
 }
 
@@ -44,19 +51,29 @@ button {
   color: white;
 }
 
+.pasta-picture img{
+  width: 60%;
+}
+
 /* Step #1 - Ingredients */
 .hook {
   font-size: 25px;
 }
 
 /* Step #2 - Cooking the Pasta */
-.cook-pasta {}
+.cook-pasta {
+
+}
 
 /* Step #3 - Making the Sauce */
-.prepare-sauce {}
+.prepare-sauce {
+
+}
 
 /* Step #4 - Presentation */
-.presentation {}
+.presentation {
+  
+}
 
 /* Step #5 - Enjoy */
 .enjoy {}

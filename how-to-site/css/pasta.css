@@ -72,8 +72,15 @@ button {
 
 /* Step #4 - Presentation */
 .presentation {
-  
+
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
 
 /* Step #5 - Enjoy */
 .enjoy {}

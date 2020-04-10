@@ -41,7 +41,7 @@
         <li>1/2 cup of parmessian cheese<br>(plus desired amount for serving)</li>
         <li>2 tbsp. of chooped parsley</li>
       </ul>
-      <button class="back1" type="button" name="back">Back</button>
+      <button class="backhook" type="button" name="back">Back</button>
       <button class="step2" type="button" name="next">Next</button>
     </section>
     <section class="cook-pasta hide">
@@ -55,6 +55,7 @@
       <div class="pasta-picture">
       <img src="images/pasta-penne-pot-boiling-water.jpg" alt="water cook-pasta">
     </div>
+      <button class="back1" type="button" name="back">Back</button>
       <button class="step3" type="button" name="next">Next</button>
     </section>
     <section class="prepare-sauce hide">
@@ -72,6 +73,7 @@
       <div class="pasta-picture">
       <img src="images/pink sauce.jpg" alt="cook sauce">
     </div>
+      <button class="back2" type="button" name="back">Back</button>
       <button class="step4" type="button" name="next">Next</button>
     </section>
     <section class="presentation hide">
@@ -92,6 +94,7 @@
       <div class="serving-size">
         <p>Serve or go buffet style!</p>
       </div>
+      <button class="back3" type="button" name="back">Back</button>
       <button class="step5" type="button" name="next">Next</button>
     </section>
     <section class="enjoy hide">
@@ -102,49 +105,73 @@
       <div class="serving-size">
         <p>Mangia, Mangia!</p>
       </div>
+        <button class="back4" type="button" name="back">Back</button>
         <button class="beginning" type="button" name="finish">Finish</button>
     </section>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      // Step 1
-      $(".step1").click(function() {
+    $(document).ready(function(){
+      // Hook
+      $(".step1").click(function(){
         $(".hook").hide(500);
         $(".ingredients").show(500);
       });
-      // Step 2
-      $(".step2").click(function() {
+
+      // Step 1
+      $(".step2").click(function(){
         $(".ingredients").slideUp(500);
         $(".cook-pasta").show(500);
-
-      $(".back1").click(function(){
-          $(".ingredients").slideDown(500);
-          $(".hook").show(500);
-
-
-        });
       });
-      // Step 3
-      $(".step3").click(function() {
+
+      $(".backhook").click(function(){
+          $(".ingredients").slideDown(500);
+          $(".ingredients").hide(500);
+          $(".hook").show(500);
+      });
+
+      // Step 2
+      $(".step3").click(function(){
         $(".cook-pasta").hide(500);
         $(".prepare-sauce").show(500);
       });
-      // Step 4
-      $(".step4").click(function() {
+
+      $(".back1").click(function(){
+        $(".cook-pasta").hide(500);
+        $(".ingredients").slideDown(500);
+      });
+
+      // Step 3
+      $(".step4").click(function(){
         $(".prepare-sauce").hide();
         $(".presentation").slideToggle(500);
       });
-      // Step 5
-      $(".step5").click(function() {
+
+      $(".back2").click(function(){
+        $(".prepare-sauce").hide(500);
+        $(".cook-pasta").show(500);
+      });
+
+      // Step 4
+      $(".step5").click(function(){
         $(".presentation").slideUp(500);
         $(".enjoy").slideDown(500);
-
       });
-      // To Beginning
-      $(".beginning").click(function() {
+
+      $(".back3").click(function(){
+        $(".presentation").slideToggle(500);
+        $(".prepare-sauce").show(500);
+
+      })
+      // Step 5
+      $(".beginning").click(function(){
         $(".enjoy").fadeOut(100);
         $(".hook").fadeIn(500);
+      });
+
+      $(".back4").click(function(){
+        $(".enjoy").slideUp(500);
+        $(".presentation").slideDown(500);  
       });
       // End of Javascript
     });

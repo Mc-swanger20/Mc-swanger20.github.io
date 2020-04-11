@@ -1,7 +1,7 @@
 body {
   background-color: #DCC0B5;
   font-family: 'Lora', serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 main {
@@ -10,9 +10,6 @@ main {
   min-width: `100%`
   position: fixed; */
   padding: 0 2rem;
-
-
-
 }
 
 header {}
@@ -23,14 +20,14 @@ header {}
 
 h1 {
   color: #A62525;
-  font-size: 45px;
+  font-size: 38px;
   /* transform: rotate(12deg);
   padding-top: 50px;
   padding-left: 10px; */
 }
 
 h1 span {
-  font-size: 45px;
+  font-size: 38px;
 }
 
 h1, h2, .serving-size {
@@ -58,7 +55,7 @@ button {
 
 /* Step #1 - Ingredients */
 .hook {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Step #2 - Cooking the Pasta */
@@ -89,9 +86,74 @@ button {
 }
 
 .wine h1{
-  
+
 }
 
 .closing {
   color: #2E8030;
+}
+
+/* Beginning of Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-color: #DCC0B5;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+  }
+
+  main {
+    /* background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
+    min-height: 100%;
+    min-width: `100%`
+    position: fixed; */
+    padding: 0 2rem;
+  }
+
+  .serving-size {
+    font-size: 30px;
+  }
+
+  h1 {
+    color: #A62525;
+    font-size: 42px;
+    /* transform: rotate(12deg);
+    padding-top: 50px;
+    padding-left: 10px; */
+  }
+
+  h1 span {
+    font-size: 42px;
+  }
+
+  .pasta-picture img{
+    width: 60%;
+    padding-bottom: 1rem;
+  }
+
+  /* Step #1 - Ingredients */
+  .hook {
+    font-size: 22px;
+  }
+
+  /* Step #2 - Cooking the Pasta */
+  .cook-pasta {
+
+  }
+
+  /* Step #3 - Making the Sauce */
+  .prepare-sauce {
+
+  }
+
+  /* Step #4 - Presentation */
+  .presentation {
+
+  }
+
+  /* Step #5 - Enjoy */
+  .enjoy {
+
+  }
 }

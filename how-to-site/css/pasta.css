@@ -183,7 +183,7 @@ cite a{
   }
 
   .pasta-picture img{
-    width: 38%;
+    width: 35%;
     padding-bottom: 1rem;
   }
 
@@ -197,6 +197,11 @@ cite a{
 
   h1 span {
     font-size: 48px;
+  }
+
+  /* Step #1 - Ingredients */
+  .hook {
+    font-size: 20px;
   }
 
 

@@ -133,7 +133,7 @@ cite a{
   }
 
   .pasta-picture img{
-    width: 60%;
+    width: 50%;
     padding-bottom: 1rem;
   }
 
@@ -172,4 +172,32 @@ cite a{
     font-size: 15px;
     color: #275407;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    background-color: #DCC0B5;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+  }
+
+  .pasta-picture img{
+    width: 38%;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    color: #A62525;
+    font-size: 48px;
+    /* transform: rotate(12deg);
+    padding-top: 50px;
+    padding-left: 10px; */
+  }
+
+  h1 span {
+    font-size: 48px;
+  }
+
+
 }

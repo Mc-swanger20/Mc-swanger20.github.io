@@ -94,7 +94,7 @@ button {
 }
 
 cite {
-  position: fixed;
+  position: sticky;
   bottom: 1rem;
 }
 

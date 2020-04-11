@@ -1,15 +1,20 @@
 body {
   background-color: #DCC0B5;
+  background-image: url("../images/anders-jilden-italy-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
   font-family: 'Lora', serif;
   font-size: 18px;
 }
 
 main {
-  /* background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
-  min-height: 100%;
-  min-width: `100%`
-  position: fixed; */
-  padding: 0 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem 3rem 2rem 3rem;
+  width: 60%;
+  margin: 2rem;
+
 }
 
 header {}
@@ -49,7 +54,7 @@ button {
 }
 
 .pasta-picture img{
-  width: 60%;
+  width: 80%;
   padding-bottom: 1rem;
 }
 
@@ -109,11 +114,11 @@ cite a{
   }
 
   main {
-    /* background: url("../images/5136837757_def41a9f2e_c.jpg") no-repeat top right fixed;
-    min-height: 100%;
-    min-width: `100%`
-    position: fixed; */
-    padding: 0 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 3rem 2rem 3rem;
+    width: 60%;
+    margin: 0 auto;
+
   }
 
   .serving-size {
@@ -180,6 +185,14 @@ cite a{
     background-color: #DCC0B5;
     font-family: 'Lora', serif;
     font-size: 18px;
+  }
+
+  main {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 3rem 2rem 3rem;
+    width: 50%;
+    margin: 0 auto;
+
   }
 
   .pasta-picture img{

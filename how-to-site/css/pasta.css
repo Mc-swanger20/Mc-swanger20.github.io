@@ -26,9 +26,6 @@ header {}
 h1 {
   color: #A62525;
   font-size: 38px;
-  /* transform: rotate(12deg);
-  padding-top: 50px;
-  padding-left: 10px; */
 }
 
 h1 span {
@@ -103,6 +100,14 @@ cite a{
   color: #275407;
 }
 
+button {
+  background: #B33B1B;
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  padding: 1px .5rem;
+  margin-bottom: .5rem;
+}
+
 /* Beginning of Media Queries */
 
 @media only screen and (min-width: 768px) {
@@ -127,9 +132,6 @@ cite a{
   h1 {
     color: #A62525;
     font-size: 42px;
-    /* transform: rotate(12deg);
-    padding-top: 50px;
-    padding-left: 10px; */
   }
 
   h1 span {
@@ -201,9 +203,6 @@ cite a{
   h1 {
     color: #A62525;
     font-size: 48px;
-    /* transform: rotate(12deg);
-    padding-top: 50px;
-    padding-left: 10px; */
   }
 
   h1 span {

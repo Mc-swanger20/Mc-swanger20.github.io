@@ -127,7 +127,7 @@
       // Step 1
       $(".step2").click(function(){
         $(".ingredients").slideUp(500);
-        $(".cook-pasta").show(500);
+        $(".cook-pasta").removeClass("hide");
       });
 
       $(".backhook").click(function(){
@@ -154,8 +154,8 @@
       });
 
       $(".back2").click(function(){
-        $(".prepare-sauce").hide(500);
-        $(".cook-pasta").show(500);
+        $(".prepare-sauce").slideUp(500);
+        $(".cook-pasta").removeClass("hide");
       });
 
       // Step 4

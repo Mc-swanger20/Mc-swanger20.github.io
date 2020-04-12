@@ -34,6 +34,7 @@ h1 span {
 
 h1, h2, .serving-size {
   font-family: 'Cormorant', serif;
+  font-style: italic;
 }
 
 h1 span, .serving-size {

@@ -55,6 +55,10 @@ button {
   padding-bottom: 1rem;
 }
 
+.gallery img {
+  width: 90%;
+}
+
 /* Step #1 - Ingredients */
 .hook {
   font-size: 20px;
@@ -169,7 +173,7 @@ button {
   }
 
   .pasta-picture img {
-    width: 35%;
+    width: 40%;
     padding-bottom: 1rem;
   }
 

@@ -41,6 +41,9 @@
         <li>1/2 cup of parmessian cheese<br>(plus desired amount for serving)</li>
         <li>2 tbsp. of chooped parsley</li>
       </ul>
+      <div class="pasta-picture">
+        <img src="images/ingredients.JPG" alt="sauce done">
+      </div>
       <button class="backhook" type="button" name="back">Back</button>
       <button class="step2" type="button" name="next">Next</button>
     </section>
@@ -52,9 +55,14 @@
         <li>Look at pasta packaging for recommended boiling times</li>
         <li>Make sure it's al dente (to the tooth)!</li>
       </ul>
-      <div class="pasta-picture">
-      <img src="images/pasta-penne-pot-boiling-water.jpg" alt="water cook-pasta">
-    </div>
+      <div class="gallery">
+        <div class="pasta-picture">
+          <img src="images/boiling-pasta.JPG" alt="cook pasta">
+        </div>
+        <div class="pasta-picture">
+          <img src="images/draining-pasta.JPG" alt="drain pasta">
+        </div>
+      </div>
       <button class="back1" type="button" name="back">Back</button>
       <button class="step3" type="button" name="next">Next</button>
     </section>
@@ -70,9 +78,14 @@
         <li><b>Make sure to keep an eye on the pasta while making the sauce!</b></li>
         <li>Taste the sauce with a hint of salt and pepper</li>
       </ol>
-      <div class="pasta-picture">
-      <img src="images/pink sauce.jpg" alt="cook sauce">
-    </div>
+      <div class="gallery">
+        <div class="pasta-picture">
+          <img src="images/tomatos-in-pot.JPG" alt="cook sauce">
+        </div>
+        <div class="pasta-picture">
+          <img src="images/sauce-stir.JPG" alt="cook sauce">
+        </div>
+      </div>
       <button class="back2" type="button" name="back">Back</button>
       <button class="step4" type="button" name="next">Next</button>
     </section>
@@ -83,14 +96,9 @@
         <li>Make sure to mix it in so it's evenly distributed</li>
         <li>Sprinkle some grated parmessian cheese, red pepper, and chopped parsely on top</li>
       </ul>
-      <div class="gallery">
-        <div class="pasta-picture">
-          <img src="images/adding-pink-vodka-sauce-to-penne-in-pot-1-e1522230889358-874x1024.jpg" alt="cook sauce">
-        </div>
       <div class="pasta-picture">
-        <img src="images/chef-304362_1280.png" alt="cook sauce">
+        <img src="images/sauce-on-pasta.JPG" alt="sauce done">
       </div>
-    </div>
       <div class="serving-size">
         <p>Serve or go buffet style!</p>
       </div>
@@ -100,84 +108,89 @@
     <section class="enjoy hide">
       <h2 class="wine"></h2>
       <h2>Enjoy Your Delicous Meal!</h2>
-      <div class="pasta-picture">
-      <img src="images/penne-vodka.jpg" alt="enjoy pasta">
-    </div>
+      <div class="gallery">
+        <div class="pasta-picture">
+          <img src="images/glass-of-wine.JPG" alt="presentation">
+        </div>
+        <div class="pasta-picture">
+          <img src="images/presentation-serve.JPG" alt="drink and enjoy">
+        </div>
+      </div>
       <div class="serving-size">
         <p>Mangia, Mangia!</p>
       </div>
-        <button class="back4" type="button" name="back">Back</button>
-        <button class="beginning" type="button" name="finish">Finish</button>
+      <button class="back4" type="button" name="back">Back</button>
+      <button class="beginning" type="button" name="finish">Finish</button>
     </section>
     <cite>
       <a href="https://unsplash.com/s/photos/vernazza">Italy background created by unsplash</a><br>
-      <a href="https://www.flickr.com/photos">Pasta and sauce photos created by flickr</a><br>
-      <a href="https://www.tinykitchenbigfood.com/2018/03/28/pink-vodka-sauce/">Presentation photo created by tinykitchenbigfood</a>
+      <a href="https://www.flickr.com/photos">Front page pasta photo created by flickr</a><br>
+      <p>All other photos taken by Marcello Carelli</p>
     </cite>
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function() {
       // Hook
-      $(".step1").click(function(){
+      $(".step1").click(function() {
         $(".hook").hide(500);
         $(".ingredients").show(500);
       });
 
       // Step 1
-      $(".step2").click(function(){
+      $(".step2").click(function() {
         $(".ingredients").slideUp(500);
         $(".cook-pasta").show(500);
       });
 
-      $(".backhook").click(function(){
-          $(".ingredients").slideDown(500);
-          $(".ingredients").hide(500);
-          $(".hook").show(500);
+      $(".backhook").click(function() {
+        $(".ingredients").slideDown(500);
+        $(".ingredients").hide(500);
+        $(".hook").show(500);
       });
 
       // Step 2
-      $(".step3").click(function(){
+      $(".step3").click(function() {
         $(".cook-pasta").slideUp(500);
         $(".prepare-sauce").removeClass("hide");
         $(".prepare-sauce").css("display", "block");
       });
 
-      $(".back1").click(function(){
+      $(".back1").click(function() {
         $(".cook-pasta").hide(500);
         $(".ingredients").slideDown(500);
       });
 
       // Step 3
-      $(".step4").click(function(){
+      $(".step4").click(function() {
         $(".prepare-sauce").hide();
         $(".presentation").slideToggle(500);
       });
 
-      $(".back2").click(function(){
+      $(".back2").click(function() {
         $(".prepare-sauce").slideUp(500);
         $(".cook-pasta").show(500);
       });
 
       // Step 4
-      $(".step5").click(function(){
+      $(".step5").click(function() {
         $(".presentation").slideUp(500);
         $(".enjoy").slideDown(500);
         $(".wine").prepend('Grab a glass of Wine and...')
       });
 
-      $(".back3").click(function(){
+      $(".back3").click(function() {
         $(".presentation").slideToggle(500);
         $(".prepare-sauce").show(500);
 
       })
       // Step 5
-      $(".beginning").click(function(){
+      $(".beginning").click(function() {
         $(".enjoy").fadeOut(100);
         $(".hook").fadeIn(500);
       });
 
-      $(".back4").click(function(){
+      $(".back4").click(function() {
         $(".enjoy").slideUp(500);
         $(".wine").empty();
         $(".presentation").slideDown(500);

@@ -14,7 +14,6 @@ main {
   padding: 1rem 3rem 2rem 3rem;
   width: 60%;
   margin: 2rem auto;
-
 }
 
 header {}
@@ -51,7 +50,7 @@ button {
   color: white;
 }
 
-.pasta-picture img{
+.pasta-picture img {
   width: 80%;
   padding-bottom: 1rem;
 }
@@ -62,43 +61,36 @@ button {
 }
 
 /* Step #2 - Cooking the Pasta */
-.cook-pasta {
-
-}
+.cook-pasta {}
 
 /* Step #3 - Making the Sauce */
-.prepare-sauce {
-
-}
+.prepare-sauce {}
 
 /* Step #4 - Presentation */
-.presentation {
-
-}
+.presentation {}
 
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
-
 
 /* Step #5 - Enjoy */
-.enjoy {
+.enjoy {}
 
-}
-
-.wine h1{
-
-}
+.wine h1 {}
 
 .closing {
   color: #2E8030;
 }
 
-cite a{
+cite a {
   font-size: 10px;
   color: #275407;
+}
+
+cite p {
+  font-size: 10px;
+  color: black;
 }
 
 button {
@@ -110,9 +102,7 @@ button {
 }
 
 /* Beginning of Media Queries */
-
 @media only screen and (min-width: 768px) {
-
   body {
     background-color: #DCC0B5;
     font-size: 22px;
@@ -123,7 +113,6 @@ button {
     padding: 1rem 3rem 2rem 3rem;
     width: 60%;
     margin: 0 auto;
-
   }
 
   .serving-size {
@@ -139,9 +128,13 @@ button {
     font-size: 42px;
   }
 
-  .pasta-picture img{
+  .pasta-picture img {
     width: 50%;
     padding-bottom: 1rem;
+  }
+
+  .gallery img {
+    width: 60%;
   }
 
   /* Step #1 - Ingredients */
@@ -150,28 +143,19 @@ button {
   }
 
   /* Step #2 - Cooking the Pasta */
-  .cook-pasta {
-
-  }
+  .cook-pasta {}
 
   /* Step #3 - Making the Sauce */
-  .prepare-sauce {
-
-  }
+  .prepare-sauce {}
 
   /* Step #4 - Presentation */
-  .presentation {
-
-  }
+  .presentation {}
 
   /* Step #5 - Enjoy */
-  .enjoy {
-
-  }
+  .enjoy {}
 }
 
 @media only screen and (min-width: 1024px) {
-
   body {
     background-color: #DCC0B5;
     font-size: 18px;
@@ -182,12 +166,15 @@ button {
     padding: 1rem 3rem 1rem 3rem;
     width: 45%;
     margin: 0 auto;
-
   }
 
-  .pasta-picture img{
+  .pasta-picture img {
     width: 35%;
     padding-bottom: 1rem;
+  }
+
+  .gallery img {
+    width: 75%;
   }
 
   h1 {
@@ -204,9 +191,14 @@ button {
     font-size: 20px;
   }
 
-  cite a{
+  cite a {
     font-size: 12px;
     color: #275407;
+  }
+
+  cite p {
+    font-size: 12px;
+    color: black;
   }
 
   cite {
@@ -216,9 +208,5 @@ button {
     right: 2rem;
     padding: .5rem;
     margin-top: .5rem;
-
   }
-
-
-
 }

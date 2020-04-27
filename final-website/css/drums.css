@@ -70,7 +70,10 @@ main h3{
   padding-left: 2rem;
 }
 
-.bio-text img{}
+.bio-text img{
+  width: 80%;
+  padding: 1rem;
+}
 
 header{
   background: #fff;
@@ -225,7 +228,11 @@ footer {
     margin: 2rem;
   }
 
-  .bio-text img{}
+  .bio-text img{
+    width: 40%;
+    float: right;
+    padding: 1rem;
+  }
 
 }
 

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcello Carelli Artistry</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163807374-1"></script>
@@ -13,25 +14,104 @@
   gtag('config', 'UA-163807374-1');
 </script>
 
-  </head>
-  <body>
-    <header>
-    <h1>Marcello Carelli Artistry</h1>
+    <!-- Google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<link rel="stylesheet" href="css/drums.css">
+<!-- <script src="jquery.js"></script> -->
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+    <h1>
+      MC
+    </h1>
+    </div>
     <nav>
-      <ul>
-        <li><a href="final-website/bio.html">Bio</a></li>
-        <li><a href="final-website/videos.html">Videos</a></li>
-        <li><a href="final-website/photos.html">Photos</a></li>
-      </ul>
-    </nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="bio.html">BIO</a></li>
+          <li><a href="videos.html">VIDEOS</a></li>
+          <li><a href="photos.html">PHOTOS</a></li>
+          <li><a href="performances.html">PERFORMANCES</a></li>
+          <li><a href="sheet.html">SHEET MUSIC</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-      Here are some photos of Marcello.
+      <h2>PHOTOS</h2>
+      <div class="main-wrapper">
+<div class="fade-slider">
+  <img src="images/8-14-19.JPG"/>
+  <img src="images/7-21-18.JPG"/>
+  <img src="images/April-18.JPG"/>
+  <img src="images/Oct25-17.JPG"/>
+  <img src="images/Oct30-18.JPG"/>
+  <img src="images/VLS-20171129-056-StampsQuintet-_MG_0212-.JPG"/>
+</div>
+
+<div class="photo-gallery">
+  <div class="pic-box">
+<img src="images/10-8-19.JPG" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/June-19.JPG" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/Oct8-19.JPG" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/October-19.JPG" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/VLS-20171129-093-StampsQuintet-_MG_0337-Edit-.JPG" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/1-8-20.jpg" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/8-18-19.jpg" alt="">
+  </div>
+  <div class="pic-box">
+<img src="images/10-25-17.JPG" alt="">
+  </div>
+
+</div>
+        </div>
+
+
+
     </main>
     <footer>
-      This is the footer.
+
+      Copyright Marcello Carelli 2020
     </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/jazz.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.fade-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+});
+
+</script>
 
   </body>
 </html>

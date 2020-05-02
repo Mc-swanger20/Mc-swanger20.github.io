@@ -1,3 +1,4 @@
+/* --------------------------------Overall CSS----------------------------------- */
 body{
   background-image: url("../images/July-18.JPG");
   background-repeat: no-repeat;
@@ -32,10 +33,17 @@ main h3{
   margin: 0 auto;
 }
 
-/* Homepage CSS */
+.main-wrapper h3{
+  font-weight: 500;
+  color: #000000;
+  grid-column: 5/9;
+}
+
+
+/* --------------------------------Homepage----------------------------------- */
 .home-img {
   grid-column: 1/13;
-  padding-left: 2rem;
+  padding: 1rem;
 }
 
 .home-img img{
@@ -44,16 +52,17 @@ main h3{
 
 .quote {
   background-color: #000000;
-  grid-column: 6/13;
-  grid-row: 1/2;
+  grid-column: 1/13;
   padding: 2rem;
+  margin: 10px;
 }
 
 .news-text {
   background-color: #000000;
-  grid-column: 6/13;
+  grid-column: 1/13;
   grid-row: 3/4;
   padding: 2rem;
+  margin: 10px;
 }
 
 .contact-box {
@@ -65,14 +74,12 @@ main h3{
   color: red;
 }
 
-h3.form-header{
-  color: red;
-}
-
 .form-line-active{
   background-color: #FFFFFF;
 }
-/* Bio CSS */
+
+
+/* --------------------------------Bio----------------------------------- */
 
 .bio-text{
   background-color: #000000;
@@ -85,6 +92,73 @@ h3.form-header{
   padding: 1rem;
 }
 
+.stamps-pic img{
+  float: left;
+}
+
+/* --------------------------------Videos----------------------------------- */
+
+.video-gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 1/13;
+  margin-top: .5rem
+}
+
+.video-box1{
+  background-color: #000000;
+  margin: 1rem;
+}
+
+.video-box1 iframe{
+  width: 100%;
+}
+
+.audio-player-style {
+  display: flex;
+  margin: 0 1rem 0 1rem;
+  grid-column: 5/9;
+  grid-row: 3/4;
+}
+
+.audio-player-style audio{
+  width: 100%;
+}
+
+.audio-caption{
+  grid-column: 5/10;
+  grid-row: 4/5;
+}
+
+.audio-caption p{
+  color: #000000;
+}
+
+/* --------------------------------Photos----------------------------------- */
+
+.fade-slider{
+  width: 250px;
+  grid-column: 1/13;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+
+.photo-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/13;
+}
+
+.pic-box{
+  background-color: #000000;
+  margin: .5rem;
+}
+
+.pic-box img{
+  width: 100%;
+}
+
+/* --------------------------------More Overall CSS----------------------------------- */
 header{
   background: #fff;
   display: grid;
@@ -206,6 +280,7 @@ footer {
   .home-img {
     grid-column: 1/5;
     grid-row: 2/4;
+    padding-left: 2rem;
   }
 
   .home-img img{
@@ -232,7 +307,7 @@ footer {
 
   }
 
-  /* Bio CSS */
+/* --------------------------------Bio----------------------------------- */
 
   .bio-text{
     background-color: #000000;
@@ -246,56 +321,46 @@ footer {
     padding: 1rem;
   }
 
-  /* Videos CSS */
+/* --------------------------------Videos----------------------------------- */
+
+  .video-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/13;
+  }
 
   .video-box1{
     background-color: #000000;
-    grid-column: 1/5;
-    grid-row: 1/3;
     margin: 1rem 1rem 1rem 2rem;
   }
 
-  .video-box2{
-    background-color: #000000;
-    grid-column: 5/9;
-    grid-row: 1/3;
-    margin: 1rem 1rem 1rem 2rem;
+  .audio-player-style{
+    grid-column: 4/10;
+
   }
 
-  .video-box3{
-    background-color: #000000;
-    grid-column: 9/13;
-    grid-row: 1/3;
-    margin: 1rem 1rem 1rem 2rem;
+  .audio-player-style audio{
+    width: 500px;
   }
 
-  .video-box4 {
-    background-color: #000000;
-    grid-column: 1/5;
-    grid-row: 3/5;
-    margin: 1rem 1rem 1rem 2rem;
-  }
+/* --------------------------------Photos----------------------------------- */
 
-  .video-box5 {
-    background-color: #000000;
-    grid-column: 5/9;
-    grid-row: 3/5;
-    margin: 1rem 1rem 1rem 2rem;
-  }
+.fade-slider{
+  width: 560px;
+  grid-column: 4/10;
+  margin-top: 2rem;
+}
 
-  .video-box6 {
-    background-color: #000000;
-    grid-column: 9/13;
-    grid-row: 3/5;
-    margin: 1rem 1rem 1rem 2rem;
-  }
+.photo-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 1/13;
+  grid-row: 2/6;
+}
 
-  .audio-player-style {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-  }
-
+.pic-box{
+  background-color: #000000;
+}
 }
 
 

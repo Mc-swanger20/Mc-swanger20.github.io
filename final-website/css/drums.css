@@ -167,9 +167,9 @@ main h3{
 
 .perform-text{
   grid-column: 4/10;
+  color: #000000;
 }
-
-.perform-text h2, p{
+.head-style{
   color: #000000;
 }
 

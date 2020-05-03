@@ -130,6 +130,9 @@ main h3{
 
 .audio-caption{
   grid-row: 4/5;
+  padding-bottom: 80px;
+  font-size: 12px;
+  margin: 0 auto;
 }
 
 .audio-caption p{
@@ -141,17 +144,19 @@ main h3{
 .fade-slider{
   width: 250px;
   margin-top: 2rem;
-  margin: 2.5rem;
+  margin: 2rem auto;
 }
 
 .photo-gallery{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
+  margin: .5rem;
+  padding-bottom: 80px;
 }
 
 .pic-box{
   background-color: #000000;
-  margin: .5rem;
 }
 
 .pic-box img{
@@ -166,6 +171,36 @@ main h3{
 
 .perform-text h2, p{
   color: #000000;
+}
+
+.gigs-table{
+  grid-row: 2;
+  color: #000000;
+  padding: 1.5rem;
+  font-size: 15px;
+
+}
+
+.border-spacing{
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.gigs-table th{
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.gigs-table td{
+  border-bottom: 1px solid;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+
+}
+
+.bottom-border td{
+  border-bottom: hidden;
 }
 
 /* --------------------------------More Overall CSS----------------------------------- */
@@ -372,6 +407,8 @@ footer {
 
   .audio-caption{
     grid-column: 5/12;
+    font-size: 18px;
+    margin: 0;
   }
 
   .audio-player-style audio{
@@ -395,6 +432,14 @@ footer {
 
 .pic-box{
   background-color: #000000;
+}
+
+/* --------------------------------Performances----------------------------------- */
+
+.gigs-table{
+  grid-row: 2;
+  grid-column: 1/13;
+  font-size: 18px;
 }
 }
 

@@ -8,6 +8,7 @@ body{
   padding: 0;
   margin:0;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 main{
@@ -22,6 +23,7 @@ main h1, h2 {
 main h3{
   color: #FFFFFF;
 }
+
 
 .logo {
   padding-right: 3rem;
@@ -84,6 +86,12 @@ main h3{
   background-color: #000000;
   padding: 0 2rem 0 2rem;
   margin: 5px;
+  font-size: 18px;
+}
+
+.bio-text p {
+  margin-top: 2em ;
+  margin-bottom: 2em ;
 }
 
 .bio-text img{
@@ -102,6 +110,7 @@ main h3{
 .video-box1{
   background-color: #000000;
   margin: 1rem;
+  margin-right: 1.5rem;
 }
 
 .video-box1 iframe{
@@ -109,8 +118,9 @@ main h3{
 }
 
 .audio-player-style {
-  display: flex;
+  display: grid;
   margin: 0 1rem 0 1rem;
+  margin-right: 1.5rem;
   grid-row: 3/4;
 }
 
@@ -146,6 +156,16 @@ main h3{
 
 .pic-box img{
   width: 100%;
+}
+
+/* --------------------------------Performances----------------------------------- */
+
+.perform-text{
+  grid-column: 4/10;
+}
+
+.perform-text h2, p{
+  color: #000000;
 }
 
 /* --------------------------------More Overall CSS----------------------------------- */
@@ -258,7 +278,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
   .main-wrapper {
     display: grid;
@@ -273,6 +293,11 @@ footer {
 
   nav ul a {
     color: #000000;
+  }
+
+  nav li {
+    list-style: none;
+    display: inline-flex;
   }
 
   .home-img {
@@ -314,7 +339,7 @@ footer {
   }
 
   .bio-text img{
-    width: 40%;
+    width: 35%;
     float: right;
     padding: 1rem;
   }
@@ -373,14 +398,7 @@ footer {
 }
 }
 
-@media only screen and (min-width: 768px){
 
-  nav li {
-    list-style: none;
-    display: inline-flex;
-  }
-
-}
 
 
 @media only screen and (max-width: 500px) {

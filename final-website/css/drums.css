@@ -23,9 +23,13 @@ main h3{
   color: #FFFFFF;
 }
 
+.logo {
+  padding-right: 3rem;
+}
+
 .main-wrapper{
   display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   width: 80%;
   max-width: 1280px;
   color: white;
@@ -36,13 +40,11 @@ main h3{
 .main-wrapper h3{
   font-weight: 500;
   color: #000000;
-  grid-column: 5/9;
 }
 
 
 /* --------------------------------Homepage----------------------------------- */
 .home-img {
-  grid-column: 1/13;
   padding: 1rem;
 }
 
@@ -52,21 +54,18 @@ main h3{
 
 .quote {
   background-color: #000000;
-  grid-column: 1/13;
   padding: 2rem;
   margin: 10px;
 }
 
 .news-text {
   background-color: #000000;
-  grid-column: 1/13;
   grid-row: 3/4;
   padding: 2rem;
   margin: 10px;
 }
 
 .contact-box {
-  grid-column: 1/13;
   grid-row: 5/6;
 }
 
@@ -83,8 +82,8 @@ main h3{
 
 .bio-text{
   background-color: #000000;
-  grid-column: 1/13;
   padding: 0 2rem 0 2rem;
+  margin: 5px;
 }
 
 .bio-text img{
@@ -92,16 +91,11 @@ main h3{
   padding: 1rem;
 }
 
-.stamps-pic img{
-  float: left;
-}
-
 /* --------------------------------Videos----------------------------------- */
 
 .video-gallery{
   display: grid;
   grid-template-columns: 1fr;
-  grid-column: 1/13;
   margin-top: .5rem
 }
 
@@ -117,7 +111,6 @@ main h3{
 .audio-player-style {
   display: flex;
   margin: 0 1rem 0 1rem;
-  grid-column: 5/9;
   grid-row: 3/4;
 }
 
@@ -126,7 +119,6 @@ main h3{
 }
 
 .audio-caption{
-  grid-column: 5/10;
   grid-row: 4/5;
 }
 
@@ -138,15 +130,14 @@ main h3{
 
 .fade-slider{
   width: 250px;
-  grid-column: 1/13;
   margin-top: 2rem;
-  margin-left: 2.5rem;
+  margin: 2.5rem;
 }
 
 .photo-gallery{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column: 1/13;
+  width: 90%;
 }
 
 .pic-box{
@@ -212,7 +203,6 @@ nav ul {
 
 nav li {
   list-style: none;
-  display: inline-flex;
 }
 
 label{
@@ -223,7 +213,7 @@ label{
 }
 
 nav ul a {
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
   margin : 0 25px;
   transition: all 0.3s ease;
@@ -262,7 +252,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   text-align: center;
   font-family: 'Dosis', sans-serif;
@@ -270,11 +260,16 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
+
   .main-wrapper {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-template-rows: repeat(6, minmax(50px, auto));
     gap: 10px;
+  }
+
+  nav ul a {
+    color: #000000;
   }
 
   .home-img {
@@ -321,6 +316,14 @@ footer {
     padding: 1rem;
   }
 
+  .stamps-pic{
+    clear: both;
+  }
+
+  .bio-text .stamps-pic img{
+    float: left;
+  }
+
 /* --------------------------------Videos----------------------------------- */
 
   .video-gallery{
@@ -347,7 +350,7 @@ footer {
 
 .fade-slider{
   width: 560px;
-  grid-column: 4/10;
+  margin-left: 290px;
   margin-top: 2rem;
 }
 
@@ -363,6 +366,15 @@ footer {
 }
 }
 
+@media only screen and (min-width: 768px){
+
+  nav li {
+    list-style: none;
+    display: inline-flex;
+  }
+
+}
+
 
 @media only screen and (max-width: 500px) {
 
@@ -370,6 +382,7 @@ footer {
  margin:0;
  background-color:black;
  font-size:1.2rem;
+ z-index: 2;
   }
 
   .mobile shrink{
@@ -392,8 +405,6 @@ footer {
     display:block;
     text-align:center;
     background-color:rgba(0,0,0,1);
-   height:18vh;
-   line-height:18vh;
       vertical-align : middle;
   }
   .mobile ul a:hover{

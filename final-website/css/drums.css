@@ -250,6 +250,10 @@ tr {
   color: #000000;
 }
 
+.contaxt-text p{
+  text-align: center;
+}
+
 /* --------------------------------More Overall CSS----------------------------------- */
 header {
   background: #fff;

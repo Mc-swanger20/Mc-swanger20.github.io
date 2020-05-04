@@ -281,6 +281,12 @@ header, h1, h2, h3{
 .logo{
   padding-left: 2rem;
 }
+
+.logo a{
+  color: #000000;
+  text-decoration: none;
+}
+
 nav {
   /* display:block;
   position:fixed; */

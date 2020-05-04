@@ -35,7 +35,7 @@ main h3{
   width: 80%;
   max-width: 1280px;
   color: white;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   margin: 0 auto;
 }
 
@@ -363,6 +363,8 @@ footer {
     display: inline-flex;
   }
 
+/* --------------------------------Homepage----------------------------------- */
+
   .home-img {
     grid-column: 1/5;
     grid-row: 2/4;
@@ -374,17 +376,23 @@ footer {
   }
 
   .quote {
-    background-color: #000000;
+    background-color: transparent;
+    color: #000000;
     grid-column: 5/13;
     grid-row: 2/3;
     margin: 0 2rem 0 1rem;
   }
 
   .news-text {
-    background-color: #000000;
+    background-color: transparent;
+    color: #000000;
     grid-column: 5/13;
     grid-row: 3/4;
     margin: 0 2rem 0 1rem;
+  }
+
+  .news-text h2{
+    color: #000000;
   }
 
   .contact-box {

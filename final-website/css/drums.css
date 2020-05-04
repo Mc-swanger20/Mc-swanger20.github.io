@@ -22,6 +22,7 @@ main h1, h2 {
 
 main h3{
   color: #FFFFFF;
+  margin: 15px;
 }
 
 
@@ -35,7 +36,7 @@ main h3{
   width: 80%;
   max-width: 1280px;
   color: white;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   margin: 0 auto;
 }
 
@@ -55,16 +56,30 @@ main h3{
 }
 
 .quote {
-  background-color: #000000;
+  background-color: transparent;
+  color: #000000;
   padding: 2rem;
-  margin: 10px;
+  margin: 5px;
+  font-family: 'Dosis', sans-serif;
 }
 
 .news-text {
-  background-color: #000000;
+  background-color: transparent;
+  color: #000000;
   grid-row: 3/4;
   padding: 0 2rem .5rem 2rem;
-  margin: 10px;
+  margin: 5px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+
+.news-text h2{
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.news-text p{
+  margin-top: 0;
 }
 
 .contact-box {
@@ -344,6 +359,7 @@ footer {
 @media only screen and (min-width: 768px) {
 
   .main-wrapper {
+    background: rgba(255, 255, 255, 0.7);
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-template-rows: repeat(6, minmax(50px, auto));
@@ -363,6 +379,12 @@ footer {
     display: inline-flex;
   }
 
+  main h3{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
 /* --------------------------------Homepage----------------------------------- */
 
   .home-img {
@@ -380,7 +402,7 @@ footer {
     color: #000000;
     grid-column: 5/13;
     grid-row: 2/3;
-    margin: 0 2rem 0 1rem;
+    margin: 0 2rem 0 2rem;
   }
 
   .news-text {
@@ -388,11 +410,7 @@ footer {
     color: #000000;
     grid-column: 5/13;
     grid-row: 3/4;
-    margin: 0 2rem 0 1rem;
-  }
-
-  .news-text h2{
-    color: #000000;
+    margin: 0 2rem 0 2rem;
   }
 
   .contact-box {

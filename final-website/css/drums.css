@@ -99,14 +99,14 @@ main h3{
 
 .bio-text{
   background-color: #000000;
-  padding: 0 2rem 2.5rem 2rem;
+  padding: 0 2rem 5rem 2rem;
   margin: 5px;
   font-size: 18px;
 }
 
 .bio-text p {
-  margin-top: 2em ;
-  margin-bottom: 2em ;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .bio-text img{
@@ -441,6 +441,11 @@ footer {
     grid-column: 1/13;
     margin: 2rem;
     padding: 0 2rem 0rem 2rem;
+  }
+
+  .bio-text p {
+    margin-top: 2em ;
+    margin-bottom: 2em ;
   }
 
   .bio-text img{

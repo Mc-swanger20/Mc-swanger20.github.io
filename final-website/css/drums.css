@@ -267,7 +267,14 @@ tr {
 
 .contact-form {
   grid-row: 2/6;
+}
 
+.contact-text a{
+  color: #000000;
+}
+
+.contact-text a:hover{
+  color: #21359B;
 }
 
 /* --------------------------------More Overall CSS----------------------------------- */
@@ -395,8 +402,17 @@ footer {
     grid-column: 4/10;
   }
 
+  header{
+    padding-right: 5rem;
+  }
+
+  nav{
+    font-size: 15px;
+  }
+
   nav ul a {
     color: #000000;
+    margin: 0 10px;
   }
 
   nav li {
@@ -563,6 +579,18 @@ footer {
   .contact-form {
     grid-column: 1/13;
 
+  }
+}
+
+@media only screen and (min-width: 1154px) {
+
+  /* --------------------------------Homepage----------------------------------- */
+  nav{
+    font-size: 1.2rem;
+  }
+
+  nav ul a{
+    margin: 0 25px;
   }
 }
 

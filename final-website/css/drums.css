@@ -91,7 +91,7 @@ main h3 {
 }
 
 .contact-box {
-  grid-row: 5/6;
+  grid-row: 4/6;
 }
 
 .form-all #header_3 {
@@ -441,7 +441,7 @@ footer {
 
   .contact-box {
     grid-column: 1/13;
-    grid-row: 5/6;
+    grid-row: 4/6;
   }
 
   /* --------------------------------Bio----------------------------------- */

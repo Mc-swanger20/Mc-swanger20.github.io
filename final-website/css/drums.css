@@ -81,12 +81,12 @@ main h3 {
   margin-top: 0;
 }
 
-.news-text a{
+.news-text a {
   color: #000000;
   font-weight: bold;
 }
 
-.news-text a:hover{
+.news-text a:hover {
   color: #3D576E;
 }
 
@@ -256,12 +256,12 @@ tr {
 }
 
 /* --------------------------------Contact----------------------------------- */
-.contact-text{
+.contact-text {
   color: #000000;
   grid-row: 1/2;
 }
 
-.contact-text p{
+.contact-text p {
   text-align: center;
 }
 
@@ -269,11 +269,11 @@ tr {
   grid-row: 2/6;
 }
 
-.contact-text a{
+.contact-text a {
   color: #000000;
 }
 
-.contact-text a:hover{
+.contact-text a:hover {
   color: #21359B;
 }
 
@@ -402,11 +402,11 @@ footer {
     grid-column: 4/10;
   }
 
-  header{
+  header {
     padding-right: 5rem;
   }
 
-  nav{
+  nav {
     font-size: 15px;
   }
 
@@ -444,7 +444,6 @@ footer {
     grid-row: 2/3;
     margin: 0 2rem 0 5rem;
     padding-top: 1rem;
-
   }
 
   .news-text {
@@ -572,24 +571,23 @@ footer {
   }
 
   /* --------------------------------Contact----------------------------------- */
-  .contact-text{
+  .contact-text {
     grid-column: 4/10;
   }
 
   .contact-form {
     grid-column: 1/13;
-
   }
 }
 
 @media only screen and (min-width: 1154px) {
 
   /* --------------------------------Homepage----------------------------------- */
-  nav{
+  nav {
     font-size: 1.2rem;
   }
 
-  nav ul a{
+  nav ul a {
     margin: 0 25px;
   }
 }

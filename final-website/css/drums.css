@@ -265,6 +265,14 @@ tr {
   text-align: center;
 }
 
+.fa-instagram{
+  font-size: 25px;
+}
+
+.fa-facebook{
+  font-size: 25px;
+}
+
 .contact-form {
   grid-row: 2/6;
 }

@@ -1,51 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">>
+<html lang="en" dir="ltr">
 
 <head>
-  <title>
-    This is my first page
-    </title>
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marcello Carelli Artistry</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163807374-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  <body>
-    <!-- What goes here does not show up-->
-    <h1> This is my first page </h1>
-    <p>I have <b>some</b> experience now</p>
-    <p>I don't want to <i>pay someone</i> to make <b>my website</b> </p>
+    gtag('config', 'UA-163807374-1');
+  </script>
+  <!-- Google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/drums.css">
+</head>
 
-    <p>This is a link to <a href="https://www.google.com/">Google</a></p>
+<body>
+  <header>
+    <div class="logo">
+      <h1>
+        <a href="index.html">MC</a>
+      </h1>
+    </div>
+    <nav>
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
 
-    <img src="file:///Users/marcellocarelli/Desktop/IMG_2061.jpeg" alt="description of the image"/>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="bio.html">BIO</a></li>
+        <li><a href="videos.html">VIDEOS</a></li>
+        <li><a href="photos.html">PHOTOS</a></li>
+        <li><a href="performances.html">PERFORMANCES</a></li>
+        <!-- <li><a href="sheet.html">SHEET MUSIC</a></li> -->
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>MARCELLO CARELLI</h1>
+    <h3>Drummer, Percussionist. Composer, Arranger, Teacher</h3>
+    <div class="main-wrapper">
+      <div class="home-img">
+        <img src="images/6-9-19.JPG">
+      </div>
+      <div class="quote">
+        <p>"I expect that whatever Marcello envisions, he's going to get."</p>
+        <p>- Grammy Award winning trumpeter and composer, John Daversa</p>
+      </div>
+      <div class="news-text">
+        <h2>BREAKING NEWS</h2>
+        <hr>
+        <p>I'm pleased to announce I have been given a Downbeat Student Music
+          Award (Original Composition - Small Ensemble Undergraduate Winner) for my
+          composition entitled "Resilience!" Check out the recording
+          <a href="videos.html">here</a>!</p>
+      </div>
+      <div class="contact-box">
+        <script type="text/javascript" src="https://form.jotform.com/jsform/201136827048049"></script>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright Marcello Carelli 2020</p>
+  </footer>
 
-    <ul>
-       <li>Philly Joe Jones</li>
-       <li>Sonny Payne</li>
-    </ul>
-    <hr>
-    <ol>
-    <li>Philly Joe Jones</li>
-     <li>Sonny Payne</li>
-     </ol>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jazz.js"></script>
+</body>
 
-     <address>
-       <p> Marcello Carelli</p>
-       <p>5185 Ponce de Leon Boulevard</p>
-     </address>
-
-    <table>
-      <th>Best drummers</th>
-      <tr>
-        <td>Eric Harland</td>
-      </tr>
-      <tr>
-        <td>Kendrick Scott</td>
-      </tr>
-    </table>
-
-
-
-
-    </body>
-
-    </html>
+</html>
+</body>
